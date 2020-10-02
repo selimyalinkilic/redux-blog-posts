@@ -1,0 +1,12 @@
+.card {
+  .card-title {
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+  .card-text {
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+}

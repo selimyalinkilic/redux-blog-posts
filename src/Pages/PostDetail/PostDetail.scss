@@ -1,0 +1,14 @@
+.post-detail {
+  .post-title {
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+  .post-text {
+    &:first-child {
+      &::first-letter {
+        text-transform: capitalize;
+      }
+    }
+  }
+}
